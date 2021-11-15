@@ -6,7 +6,7 @@ intsall:
   sudo apt-get update
   sudo apt-get install nodejs
   sudo apt-get install npm
-  sudo apt-get install express
+  npm install express --save
 
 script:
   npm test 
