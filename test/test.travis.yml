@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 12
+
+intsall:
+  sudo apt-get update
+  sudo apt-get install nodejs
+  sudo apt-get install npm
+  sudo apt-get install express
+
+script:
+  npm test 
